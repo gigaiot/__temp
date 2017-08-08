@@ -45,7 +45,12 @@ $ node ddd
 
 ## 이미지 삽입도...
 
+JPG파일
+![IoTMakers](./images/img001.JPG "IoTMakers")
+
+### PNG파일
 ![IoTMakers](./images/img001.PNG "IoTMakers")
+
 
 ## 리스트
 
