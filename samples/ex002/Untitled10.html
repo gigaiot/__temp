@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head> <meta charset="UTF-8"></head>
+
+<xmp theme="spacelab" style="display:none;"></xmp>
+<!-- 
+<object type="text/plain"  height=0 width=0 data="readme.md"> </object>
+<object type="text/plain"  height=0 width=0 data="dill.md"> </object>
+ -->
+<object type="text/plain"  height=0 width=0 data="readme.md"> </object>
+
+<script type="text/javascript">
+<!--
+
+	function md_load(){
+		alert('loading...done');
+
+		var mdobject  = document.getElementsByTagName('object')[0];
+		var innerDoc = mdobject.contentDocument
+		var preElements = innerDoc.getElementsByTagName('pre');
+
+		for (i = 0; i < preElements.length; i++) { 
+			document.getElementsByTagName('xmp')[0].innerHTML += preElements[i].innerHTML;
+		}
+	}
+
+	md_load();
+//-->
+</script>
+
+
+<script src="http://strapdownjs.com/v/0.2/strapdown.js"></script>
+</html>
