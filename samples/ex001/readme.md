@@ -59,41 +59,4 @@ JPG파일
 
 
 
-```sh
-11:31:39 DBG ../iotmakers_sdk_c_ver_3.0.15/src/util/log.c 0176 im_log_wri: 0000: 00 00 00 74 11 01 00 23 | 60 e0 8b c5 8b 59 00 00   ...t...#`....Y..
-11:31:39 DBG ../iotmakers_sdk_c_ver_3.0.15/src/util/log.c 0176 im_log_wri: 0010: 00 00 00 00 00 00 00 00 | 00 00 00 00 00 00 00 00   ................
-11:31:39 DBG ../iotmakers_sdk_c_ver_3.0.15/src/util/log.c 0176 im_log_wri: 0020: 00 00 01 01 03 00 00 7b | 22 65 78 74 72 53 79 73   .......{"extrSys
-11:31:39 DBG ../iotmakers_sdk_c_ver_3.0.15/src/util/log.c 0176 im_log_wri: 0030: 49 64 22 3a 22 4f 50 45 | 4e 5f 54 43 50 5f 30 30   Id":"OPEN_TCP_00
-11:31:39 DBG ../iotmakers_sdk_c_ver_3.0.15/src/util/log.c 0176 im_log_wri: 0040: 31 50 54 4c 30 30 31 5f | 31 30 30 30 30 30 31 34   1PTL001_10000014
-11:31:39 DBG ../iotmakers_sdk_c_ver_3.0.15/src/util/log.c 0176 im_log_wri: 0050: 33 33 22 2c 22 64 65 76 | 49 64 22 3a 22 58 58 58   33","devId":"XXX
-11:31:39 DBG ../iotmakers_sdk_c_ver_3.0.15/src/util/log.c 0176 im_log_wri: 0060: 58 58 22 2c 22 61 74 68 | 6e 52 71 74 4e 6f 22 3a   XX","athnRqtNo":
-11:31:39 DBG ../iotmakers_sdk_c_ver_3.0.15/src/util/log.c 0176 im_log_wri: 0070: 22 58 58 58 58 58 22 7d |                           "XXXXX"}
-```
-
-
-```bin
-11:31:39 DBG ../iotmakers_sdk_c_ver_3.0.15/src/util/log.c 0176 im_log_wri: 0000: 00 00 00 74 11 01 00 23 | 60 e0 8b c5 8b 59 00 00   ...t...#`....Y..
-11:31:39 DBG ../iotmakers_sdk_c_ver_3.0.15/src/util/log.c 0176 im_log_wri: 0010: 00 00 00 00 00 00 00 00 | 00 00 00 00 00 00 00 00   ................
-```
-
-
-```pre
-11:31:39 DBG ../iotmakers_sdk_c_ver_3.0.15/src/util/log.c 0176 im_log_wri: 0000: 00 00 00 74 11 01 00 23 | 60 e0 8b c5 8b 59 00 00   ...t...#`....Y..
-11:31:39 DBG ../iotmakers_sdk_c_ver_3.0.15/src/util/log.c 0176 im_log_wri: 0010: 00 00 00 00 00 00 00 00 | 00 00 00 00 00 00 00 00   ................
-```
-
-```json
-{
-"extrSysId":"OPEN_TCP_001PTL001_1000001433",
-"devId":"XXXXX",
-"athnRqtNo":"XXXXX"
-}
-```
-
-```javascript
-{"extrSysId":"OPEN_TCP_001PTL001_1000001433","devId":"XXXXX","athnRqtNo":"XXXXX"}
-```
-
-
-
 
